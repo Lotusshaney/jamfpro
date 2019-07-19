@@ -1,6 +1,6 @@
-FROM tomcat:8.5.40-jre8-slim
+FROM tomcat:8.5.43-jdk11-openjdk-slim
 
-LABEL Maintaner JamfDevops <devops@jamf.com>
+LABEL Maintaner Lotusshaney <dan@designed79.co.uk>
 
 RUN apt-get update -qq && \
 	DEBIAN_FRONTEND=noninteractive apt-get install --ignore-missing --no-install-recommends -y jq curl && \
