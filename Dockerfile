@@ -1,4 +1,4 @@
-FROM tomcat:8.5.43-jdk11-openjdk-slim
+FROM tomcat:8.5.43-jdk11-openjdk
 
 LABEL Maintaner Lotusshaney <dan@designed79.co.uk>
 
